@@ -10,6 +10,31 @@
 | 수업 | 2025년 3학년 1학기 마이크로컴퓨터 구조, 2학기 마이크로컴퓨터 응용 |
 | 참고 문서 | RM0090 (STM32F405/407 레퍼런스 매뉴얼), STM32F407 데이터시트, PM0214 (Cortex-M4 프로그래밍 매뉴얼) |
 
+## 실습 환경
+
+모든 과제는 IAR Embedded Workbench에서 작성·빌드하고, 학교에서 제공한 STM32F407 실습 보드에 올려 확인했습니다.
+
+| Maze Runner | 엘리베이터 | 이진 연산기 |
+| :---: | :---: | :---: |
+| <img src="images/lcd_maze.jpg" width="220"> | <img src="images/lcd_elevator.jpg" width="220"> | <img src="images/lcd_calculator.jpg" width="220"> |
+
+<img src="images/setup_calculator.jpg" width="640" alt="IAR Embedded Workbench, 과제 명세, 실습 보드">
+
+왼쪽은 IAR에서 작성한 코드, 오른쪽은 과제 명세, 아래는 실행 중인 실습 보드입니다.
+
+<img src="images/scope.jpg" width="420" alt="오실로스코프로 보드 출력 신호 측정">
+
+실습 보드의 출력 신호를 오실로스코프로 측정하며 파형을 확인했습니다.
+
+<details>
+<summary>다른 과제 실습 사진</summary>
+
+<img src="images/setup_maze.jpg" width="640">
+
+<img src="images/setup_elevator.jpg" width="640">
+
+</details>
+
 ## 프로젝트 목록
 
 | 폴더 | 프로젝트 | 핵심 주변장치 |
